@@ -10,7 +10,10 @@
     <meta name="apple-itunes-app-clip-app-banner" content="yes" />
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        		integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <script>
+     $(document).ready(function () {
     const urlParams = new URLSearchParams(window.location.search)
     var target_name = urlParams.get('aopid')
      function isIOS() {
@@ -27,6 +30,7 @@
     } else {
         console.log("This is neither an iOS nor Android device.");
     }  
+         });
 </script>
 </body>
 </html>
