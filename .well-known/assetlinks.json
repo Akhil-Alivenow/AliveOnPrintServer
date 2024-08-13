@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.alivenow.googleplayinstantgame",
+      "sha256_cert_fingerprints":
+        ["B3:8F:C4:3D:47:73:EF:35:64:A3:96:54:F3:16:00:C3:29:CD:9C:45:04:6A:AA:B3:F6:75:B5:47:DF:4F:A0:42"]
+    }
+  }
+]
